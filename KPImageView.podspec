@@ -95,6 +95,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "KPImageView/**/*.h"
 
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
