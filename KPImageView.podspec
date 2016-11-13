@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "KPImageView"
   s.version      = "0.0.1"
-  s.summary      = "An awesome image affect in UIImageView."
+  s.summary      = "A super cool image affect in UIImageView."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/khuong291"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/khuong291/KPImageView/blob/master/KPImageView.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,8 +63,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios
+  # s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "KPImageView/**/*.h"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
