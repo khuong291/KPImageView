@@ -3,7 +3,10 @@ Pod::Spec.new do |s|
   s.version      = "0.0.3"
   s.summary      = "UIImageView with Ken Burns effect."
   s.homepage     = "https://github.com/khuong291/KPImageView"
-  s.license      = 'MIT'
+  s.license = { :type => 'MIT', :text => <<-LICENSE
+                   Copyright 2016 Khuong Pham
+                 LICENSE
+               }
   s.author       = { "khuong291" => "dkhuong291@gmail.com" }
   s.source       = { :git => "https://github.com/khuong291/KPImageView.git", :tag => s.version.to_s }
 
